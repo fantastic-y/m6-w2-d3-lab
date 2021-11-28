@@ -92,7 +92,7 @@ class BookEdit extends Component {
                                 <Button
                                     color="secondary"
                                     className="mt-3"
-                                    tag={Link} to="/inventories"
+                                    tag={Link} to="/"
                                 >Cancel</Button>
                             </FormGroup>
                         </Form>

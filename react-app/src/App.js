@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route path='/booklists' exact={true} component={BookList}/>
+          <Route path='/' exact={true} component={BookList}/>
           <Route path='/booklists/:id' exact={true} component={BookEdit}/>
         </Switch>
       </Router>
